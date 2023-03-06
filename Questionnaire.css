@@ -1,0 +1,95 @@
+body{
+	display: flex;
+	background: radial-gradient( rgb(42, 0, 66),rgb(202, 66, 255)) ;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	font-size: large;
+	min-height: 100vh;
+	background: url(background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.form-conteneur{
+	border: 3px solid black;
+	backdrop-filter: blur(4px);
+	margin: auto;
+	width: 600px;
+	height: 500px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+	/* background-color: #444; */
+	background-color: transparent;
+	overflow: hidden;
+	padding-top: 100px;
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	font-size: 32px;
+	color: white;
+	text-align: center;
+}
+
+.input-box{
+	margin: 30px 20px;
+	border-bottom: solid 2px white;
+}
+
+input{
+	color: white;
+}
+
+.input-box input{
+	/* background-color:rgb(232, 240, 254); */
+	background-color: transparent;
+	width: 93%;
+	height: 37px;
+	outline: none;
+	border: none;
+	border-radius: 2px;
+	font-size: 1em;
+	padding: 0 35px 0 5px;
+}
+
+.input-box label{
+	display: flex;
+	width: 200px;
+	padding: 0 0 10px 0
+}
+
+.relien{
+	display: flex;
+}
+
+.lien{
+	width: 100%;
+	text-align: end;
+}
+
+.connection {
+    display: flex;
+    text-align: center;
+    margin: 20px auto;
+    padding: 7px;
+    font-size: 1em;
+}
+
+button{
+	border-radius: 5px;
+	color: white;
+	background-color: rgb(24, 84, 214);
+}
+
+a{
+	padding: 0;
+	font-size: 1em;
+	/* color: rgb(25, 146, 226); */
+	color: rgb(255, 212, 94);
+}
